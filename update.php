@@ -1,7 +1,7 @@
 <?php
 include 'database.php';
 
-$stmt = $db->prepare('UPDATE my_contacts SET first_name = :first_name, last_name = :last_name, title = :title, mobile = :mobile, address = :address WHERE id = :id');
+$stmt = $db->prepare('UPDATE my_contacts SET first_name = :first_name, last_name = :last_name, title = :title, mobile = :mobile, physical_address = :address WHERE id = :id');
 
 $stmt->execute(array(
   ':id' => $_POST['id'],
