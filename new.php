@@ -7,7 +7,6 @@ include 'header.php';
   <div class="row justify-content-md-center">
     <div class="col col-lg-6 col-md-10">
 
-  <!-- START OF ADD NEW CONTACT FORM -->
   <div class="container panel panel-default" id="view">
     <div class="row panel-heading">
   <form method="POST" action="/portal/contacts/create.php">
@@ -50,5 +49,3 @@ include 'header.php';
   </div>
 </div>
 
-<!-- END CREATE NEW CONTACT -->
-<?php include 'footer.php' ?>
